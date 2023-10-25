@@ -8,10 +8,10 @@ import Header from "./components/Header";
 import "./App.css";
 
 const linksArray = [
-  { to: "/SJ_React_Portfolio/about", label: "About Me" },
-  { to: "/SJ_React_Portfolio/portfolio", label: "Portfolio" },
-  { to: "/SJ_React_Portfolio/contact", label: "Contact" },
-  { to: "/SJ_React_Portfolio/resume", label: "Resume" },
+  { to: "/sonam_portfolio/about", label: "About Me" },
+  { to: "/sonam_portfolio/portfolio", label: "Portfolio" },
+  { to: "/sonam_portfolio/contact", label: "Contact" },
+  { to: "/sonam_portfolio/resume", label: "Resume" },
 ];
 
 function App() {
@@ -21,11 +21,11 @@ function App() {
         <Header links={linksArray} />
         <div className="container mt-5">
           <Routes>
-            <Route path="/SJ_React_Portfolio/" element={<About />} />
-            <Route path="/SJ_React_Portfolio/about" element={<About />} />
-            <Route path="/SJ_React_Portfolio/portfolio" element={<Portfolio />}/>
-            <Route path="/SJ_React_Portfolio/contact" element={<Contact />} />
-            <Route path="/SJ_React_Portfolio/resume" element={<Resume />} />
+            <Route path="/sonam_portfolio/" element={<About />} />
+            <Route path="/sonam_portfolio/about" element={<About />} />
+            <Route path="/sonam_portfolio/portfolio" element={<Portfolio />}/>
+            <Route path="/sonam_portfolio/contact" element={<Contact />} />
+            <Route path="/sonam_portfolio/resume" element={<Resume />} />
           </Routes>
         </div>
         <Footer />

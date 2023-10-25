@@ -2,7 +2,7 @@
   "name": "sj_portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sonam-git.github.io/SJ_Portfolio",
+  "homepage": "https://sonam-git.github.io/sonam_portfolio",
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@emotion/react": "^11.11.1",
